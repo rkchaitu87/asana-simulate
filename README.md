@@ -9,8 +9,16 @@ This repository generates a realistic Asana-like enterprise workspace database i
 
 The goal is to produce realistic seed data suitable for downstream agent training/evaluation.
 
+
 ## Setup (Windows)
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 python -m pip install -r requirements.txt
+python -m src.main
+
+
+## OUTPUT
+output/asana_simulation.sqlite
+
+Repo contains a reproducible generator for an Asana-like enterprise workspace in SQLite. Run python -m src.main to regenerate output/asana_simulation.sqlite.
